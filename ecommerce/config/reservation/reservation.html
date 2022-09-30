@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/bootstrap.css">
+    <link rel="stylesheet" href="/style.css">
+    
+    <title>
+        Réservation
+    </title>
+</head>
+<body>
+    <p>Prêt à commencer votre réservation ? Lancez-vous !! </p>
+    <form action="/action.php" method="GET" class="form-example">
+
+        <label for="nom">Veuillez saisir votre nom: </label>
+        <input type="text" name="nom" id="nom" required>
+        <br>
+        
+        <label for="prenom">Veuillez saisir votre prenom: </label>
+        <input type="text" name="prenom" id="prenom" required>
+        <br>
+
+        <label for="mail">Veuillez saisir votre adresse email: </label>
+        <input type="mail" name="ddn" id="mail" required>
+        <br>
+
+        <input type="submit" value = "envoyer">
+    </form> 
+    <form action="action.php" method="POST" class="form-example">
+        <label for="Numéro de Téléphone">Veuillez saisir votre Numéro de Téléphone: </label>
+        <input type="numero" name="téléphone" id="téléphone" required>
+        <br>
+    <input type="submit" value = "envoyer">
+
+    </form>
+
+    <p>Entrez ici votre numéro de téléphone, un conseiller vous contactera immédiatement afin de définir votre projet.</p>
+    <p>Si vous plait, nous vous demandons de </p>
+
+        
+</body>
+</html>
